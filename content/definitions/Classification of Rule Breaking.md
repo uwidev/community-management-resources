@@ -17,7 +17,11 @@ An easy example of this is "No NSFW". What kind of content is too NSFW to be all
 ## (3) Impulsive, Reckless, Inconsiderate
 Members can read the rules, completely understand it, but act without enough thought. These cases are quite common, since emotions, behavior, and habits drive these cases.
 
-Arguments, especially heated ones, are the prime example of this kind of rule breaking. S
+Arguments, especially heated ones, are the prime example of this kind of rule breaking. Shitposting in the middle of a conversation or randomly dropping irrelevant media content in a channel is also quite common.
 
 ## (4) Special case: Broken deliberately
+On rare occasions, members might feel a bit daring, spiteful, for trolly. These members fully know they are breaking a rule, and break it. Severity depends on if it is justified, but most of the time, to deliberately break a rule without discussing to staff about it is punishable. 
 
+Most cases have little to no emotional drive, and instead, have ample thought to their actions.
+
+Posting images after explicitly being told not to post images
