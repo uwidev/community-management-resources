@@ -1,8 +1,7 @@
 ---
 title: "Classifications of Rule Breaking"
 ---
-# Classification of Rule Breaking
-When rules are broken, there appears to be three classifications, with one special case. These rules will be ordered based on severity, assuming the same rule is broken.
+When rules are broken, there appears to be three classifications, with one special case. These rules will be ordered based on increasing severity, assuming the same rule is broken.
 
 ## (1) Ignorance
 Sometimes, members "read" the rules. Other times, they read the rules, but it didn't register into their memory. In either case, said member has no rule to base their actions on.
@@ -24,4 +23,4 @@ On rare occasions, members might feel a bit daring, spiteful, for trolly. These 
 
 Most cases have little to no emotional drive, and instead, have ample thought to their actions.
 
-Posting images after explicitly being told not to post images
+Posting images after explicitly being told not to post images is an example of this.
