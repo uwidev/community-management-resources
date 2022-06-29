@@ -1,4 +1,4 @@
-baseURL = "https://uwidev.github.io/discord-moderation/"
+baseURL = "https://uwidev.github.io/discord-server-management/"
 languageCode = "en-us"
 googleAnalytics = "G-XYFD95KB4J"
 pygmentsUseClasses = true
