@@ -12,19 +12,6 @@ h1, h2, h3, h4, h5, h6, ol, ul, thead {
   font-weight: revert;
   margin: revert;
   padding: revert;
-
-  &:hover > .hanchor {
-    opacity: 1;
-  }
-}
-
-.hanchor {
-  font-family: Inter;
-  margin-left: -1em;
-  opacity: 0.3;
-  transition: opacity 0.3s ease;
-  color: var(--secondary);
-
 }
 
 p, ul, text {
@@ -34,23 +21,6 @@ p, ul, text {
   font-weight: revert;
   margin: revert;
   padding: revert;
-}
-
-.mainTOC {
-  background: var(--lightgray);
-  border-radius: 5px;
-  padding: 0.75em 1em;
-}
-
-.mainTOC details summary {
-  cursor: zoom-in;
-  font-family: Inter;
-  color: var(--dark);
-  font-weight: 700;
-}
-
-.mainTOC details[open] summary {
-    cursor: zoom-out;
 }
 
 #TableOfContents > ol {
@@ -79,6 +49,12 @@ p, ul, text {
     font-weight: 700;
   }
 }
+
+footer {
+  margin-top: 4em;
+  text-align: center;
+}
+
 
 table {
   width: 100%;
@@ -171,6 +147,34 @@ article {
     opacity: 0.7;
   }
 
+  & > .tags {
+    list-style: none;
+    padding-left: 0;
+
+    & .meta {
+      & > h1 {
+        margin: 0;
+      }
+      & > p {
+        margin: 0;
+      }
+    }
+
+    & > li {
+      display: inline-block;
+    }
+    & > li > a {
+      border-radius: 8px;
+      border: var(--outlinegray) 1px solid;
+      padding: 0.2em 0.5em;
+      &::before {
+        content: "#";
+        margin-right: 0.3em;
+        color: var(--outlinegray);
+      }
+    }
+  }
+
   & a {
     font-family: Source Sans Pro;
     font-weight: 600;
@@ -191,36 +195,6 @@ article {
   
   & p {
     overflow-wrap: anywhere;
-  }
-}
-
-.tags {
-  list-style: none;
-  padding-left: 0;
-
-  & .meta {
-    & > h1 {
-      margin: 0;
-    }
-    & > p {
-      margin: 0;
-    }
-  }
-
-  & > li {
-    display: inline-block;
-    margin: 0.4em 0;
-  }
-
-  & > li > a {
-    border-radius: 8px;
-    border: var(--outlinegray) 1px solid;
-    padding: 0.2em 0.5em;
-    &::before {
-      content: "#";
-      margin-right: 0.3em;
-      color: var(--outlinegray);
-    }
   }
 }
 
@@ -290,10 +264,12 @@ body {
 
 footer {
   margin-top: 4em;
-  text-align: center;
-  & ul {
-    padding-left: 0;
-  } 
+
+  & > a {
+    font-size: 1em;
+    color: var(--secondary);
+    padding: 0 0.5em 3em 0.5em;
+  }
 }
 
 hr {
@@ -344,13 +320,6 @@ hr {
   & #graph-container {
     border: var(--outlinegray) 1px solid;
     border-radius: 5px;
-    box-sizing: border-box;
-    min-height: 250px;
-
-    & > svg {
-      margin-bottom: -5px;
-
-    }
   }
 }
 
@@ -443,7 +412,7 @@ header {
     }
 
     & > #results-container {
-      & .result-card {
+      & > .result-card {
         padding: 1em;
         cursor: pointer;
         transition: background 0.2s ease;
@@ -480,15 +449,15 @@ header {
         & > h3, & > p {
           margin: 0;
         }
+
+        & .search-highlight {
+          background-color: #afbfc966;
+          padding: 0.05em 0.2em;
+          border-radius: 3px;
+        }
       }
     }
   }
-}
-
-.search-highlight {
-  background-color: #afbfc966;
-  padding: 0.05em 0.2em;
-  border-radius: 3px;
 }
 
 .section-ul {
@@ -513,50 +482,31 @@ header {
   }
 }
 
-@keyframes dropin {
-  0% {
-    display: none;
-    opacity: 0;
-    visibility: hidden;
-  }
-  1% {
-    display: inline-block;
-    opacity: 0;
-    transform: translate(-50%, 40%);
-  }
-  100% {
-    opacity: 1;
-    visibility: visible;
-    transform: translate(-50%, 20%);
-  }
-}
-
 .popover {
   z-index: 999;
   position: absolute;
   width: 20em;
-  display: none;
+  display: inline-block;
+  visibility: hidden;
   background-color: var(--light);
   padding: 1em;
   border: 1px solid var(--outlinegray);
   border-radius: 5px;
   transform: translate(-50%, 40%);
+  opacity: 0;
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
+  transition-delay: 0.3s;
   user-select: none;
-  overflow-wrap: anywhere;
-  box-shadow: 6px 6px 36px 0px rgba(0,0,0,0.25);
 
   @media all and (max-width: 600px) {
-    display: none !important;
+    display: none;
   }
 
   &.visible {
     opacity: 1;
     visibility: visible;
     transform: translate(-50%, 20%);
-    display: inline-block;
-    animation: dropin 0.2s ease;
   }
 
   & > h3 {
@@ -567,18 +517,14 @@ header {
   & > .meta {
     margin-top: 0.25em;
     opacity: 0.5;
-    font-family: "JetBrains Mono", monospace;
-    font-size: 0.8rem;
   }
 
-  & > p, & > a {
+  & > p {
     margin: 0;
     font-weight: 400;
     user-select: none;
   }
 }
-
-
 
 #contact_buttons ul {
   list-style-type: none;
@@ -591,5 +537,3 @@ header {
     padding: 0 1em;
   }
 }
-
-
