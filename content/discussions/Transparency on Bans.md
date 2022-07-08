@@ -6,7 +6,7 @@ For this discussion, we will assume an obedient member, Bob.
 
 Bob really likes the server, but he's dealing with personal drama that's really getting to him. He comes to the server to try to relax, but is in a rather bitter mood, and this bitterness is evident his behavior. Bob is seen as annoying and aggressive.
 
-This is a repeated pattern of Bob for the past few days, with each case resulting in a mute. He has been [Disciplinary Action](definitions/Community%20Moderator.md#Disciplinary%20Action) multiple times, but still quite figure things out.
+This is a repeated pattern of Bob for the past few days, with each case resulting in a mute. He has been [disciplined](definitions/Community%20Moderator.md#Disciplinary%20Action) multiple times, but still quite figure things out.
 
 At this point, he has reason for a potential ban. The problem: when do you ban? Even bigger problem: how do members know how bans work?
 
