@@ -3,7 +3,7 @@ title: "Community Moderator"
 ---
 A **Community Moderator (Moderator)** is a member of [Staff Members](definitions/Staff%20Members.md) who disciplines members who break rules or philosophies. As they are staff members, they are expected to uphold staff responsibilities.
 
-# Responsibilities
+## Responsibilities
 Moderators ensures that [Members](Members) of the server adhere to its rules and philosophies. Those who take action against the rules/philosophies face disciplinary action from moderators in the form of warns, mutes, kicks, and bans.
 
 ## Disciplinary Action

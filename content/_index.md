@@ -2,7 +2,7 @@
 title: "🌸 uwi's collection of community management resources"
 linkTitle: "Home"
 ---
-v0.3
+v0.3.1
 
 This wiki website is meant to be a collection of public resources related to managing an online community. Most resources are tailored specifically to Discord.
 

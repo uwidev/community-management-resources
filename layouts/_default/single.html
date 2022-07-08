@@ -15,23 +15,18 @@
   <article>
       {{if .Title}}<h1>{{ .Title }}</h1>{{end}}
       <p class="meta">
-          Last updated {{if ne .Date .Lastmod}}{{ .Lastmod.Format "January 2, 2006" }}{{else}}Unknown{{end}}
+          Last updated {{if ne .Date .Lastmod}}{{ .Lastmod.Format "January 2, 2006" }}{{else}}Unknown{{end}}. 
+          {{ partial "github.html" . }}
       </p>
       <ul class="tags">
           {{ range (.GetTerms "tags") }}
           <li><a href="{{ .Permalink }}">{{ .LinkTitle | humanize }}</a></li>
           {{ end }}
       </ul>
-      {{ if (and $.Site.Data.config.enableToc (not (.Params.disableToc))) }}
-      <aside class="mainTOC">
-          <h3>Table of Contents</h3>
-          {{ .TableOfContents }}
-      </aside>
-      {{end}}
+      {{partial "toc.html" .}}
       {{partial "textprocessing.html" . }}
     </article>
     {{partial "footer.html" .}}
-    {{partial "popover.html" .}}
 </div>
 </body>
 
