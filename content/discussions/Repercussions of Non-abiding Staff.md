@@ -1,5 +1,6 @@
 ---
-title: "Repercussions of Non-abiding Staff"
+title: Repercussions of Non-abiding Staff
+tags: [discussion]
 ---
 [Staff Members](definitions/Staff%20Members.md) that don't abide to the server's rules and philosophies create confusion among [[Members]]. Members will think that an action is okay, when in fact it is not. 
 

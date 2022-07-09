@@ -1,5 +1,6 @@
 ---
-title: "Classifications of Rule Breaking"
+title: Classifications of Rule Breaking
+tags: [discussion]
 ---
 When rules are broken, there appears to be three classifications, with one special case. These rules will be ordered based on increasing severity, assuming the same rule is broken.
 

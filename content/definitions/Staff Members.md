@@ -1,5 +1,6 @@
 ---
-title: "Staff Members"
+title: Staff Members
+tags: [definitions]
 ---
 **Staff Members (Staff)** are members of management.
 

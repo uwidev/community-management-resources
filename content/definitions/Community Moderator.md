@@ -1,5 +1,6 @@
 ---
-title: "Community Moderator"
+title: Community Moderator
+tags: [definitions]
 ---
 A **Community Moderator (Moderator)** is a member of [Staff Members](definitions/Staff%20Members.md) who disciplines members who break rules or philosophies. As they are staff members, they are expected to uphold staff responsibilities.
 

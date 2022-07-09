@@ -1,5 +1,6 @@
 ---
-title: "Transparency on Bans"
+title: Transparency on Bans
+tags: [discussion]
 ---
 ## Scenario
 For this discussion, we will assume an obedient member, Bob.
@@ -15,4 +16,4 @@ The most frustrating and sad thing for a member who genuinely enjoys their time 
 
 This puts further emphasis on forcing users to think before they act. And while acting based on a fear of ban isn't the best motivation, it wouldn't have got to this point if they had thought beforehand. They will learn one way or another.
 
-On creating that concrete agreement, the most straight-forward implementation of it is a 3-Strike System, though a [4-Strike System](definitions/4-Strike%20System.md) might be better.
+On creating that concrete agreement, the most straight-forward implementation of it is a 3-Strike System, though a 4-Strike System might be better. See [Strikes System](definitions/Strikes%20System.md).
