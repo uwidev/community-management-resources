@@ -2,7 +2,9 @@
 title: Strikes System
 tags: [definitions]
 ---
-A **Strikes System** is a moderation protocol of using historical infractions to determine the case of a ban. There are two mechanics to this system: what counts as an infraction, and how many infractions result to the ban.
+A **Strikes System** is a moderation protocol of using historical [Infractions](definitions/Infractions.md) to determine the case of a ban. There are two mechanics to this system: what counts as an infraction, and how many infractions result to the ban.
+
+For a more nuanced take on determining bans, see [Infamy System](definitions/Infamy%20System.md). It extends infractions to have an infamy value, and bans based on a user's total infamy value.
 
 ## Determining Infractions
 See [Determining Infractions](discussions/Determining%20Infractions.md).
